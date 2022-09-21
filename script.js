@@ -93,7 +93,7 @@ const gameOver = id => {
   const result = confirm(rankCheck(score));
 
   // OKボタンをクリックされたらリロードする
-  if(result == ture) {window.location.reload()};
+  if(result == true) {window.location.reload()};
 };
 
 // カウントダウンタイマー
