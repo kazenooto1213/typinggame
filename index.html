@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="タイピングゲームを作ろう">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 id="content">Typing Game</h1>
+    <div id="circle">
+      <p id="count" class="count">60</p>
+    </div>
+    <div id="box" class="box">
+      <div id="innerbox" class="innerbox">
+        <span id="typed" class="typed"></span><span id="untyped"></span>
+      </div>
+    </div>
+    <button id="button">START!!</button>
+    <p id="rule">◆ルール説明◆</p>
+    <ul id="text">
+      <li>制限時間は60秒。</li>
+      <li>大文字は大文字で、小文字は小文字で入力。</li>
+      <li>間に半角スペースがある単語は半角スページを入力。</li>
+      <li>（例: ul ol liの様な出題には間に半角スペースがあります）</li>
+      <li>打てた文字数によってランク表示をします。</li>
+    </ul>
+    <div id="keybord"></div>
+    <script src="script.js"></script>
+    <audio id="misaudio" src="audio/mis.mp3"></audio>
+  </body>
+
+</html>
